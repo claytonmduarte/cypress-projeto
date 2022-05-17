@@ -20,7 +20,5 @@ describe(`Pesquise de produto e inclusão do carrinho de compras`, () => {
     cy.wait(5000)
     //cy.get('.wrapper-product__informations > .button__buy').click().should('contain.text', 'Adicionar')
  
-        
-
-    });
+});
     });
