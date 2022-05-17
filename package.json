@@ -1,0 +1,14 @@
+{
+  "name": "cypress-projeto",
+  "version": "1.0.0",
+  "description": "Projeto em Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Clayton Marques",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
