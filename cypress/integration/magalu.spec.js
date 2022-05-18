@@ -26,6 +26,7 @@ describe(`Acesso ao site Magalu pesquisando um item e incluindo no carrinho`, ()
         cy.contains("HD Externo 1TB Toshiba Canvio Basics").should('be.visible') 
         cy.get(':nth-child(1) > [data-testid="product-card-container"] > .sc-jSYIrd > [data-testid="image"]').should('be.visible').click()
         cy.wait(1000)
-        cy.get('body > div.wrapper__main > div.wrapper__content.js-wrapper-content > div.wrapper__control > div.wrapper-product__content.wrapper-product__box-prime > div.wrapper-product__informations.js-block-product > button.button__buy.button__buy-product-detail.js-add-cart-button.js-main-add-cart-button.js-add-box-prime > span').click()
+        //cy.get('body > div.wrapper__main > div.wrapper__content.js-wrapper-content > div.wrapper__control > div.wrapper-product__content.wrapper-product__box-prime > div.wrapper-product__informations.js-block-product > button.button__buy.button__buy-product-detail.js-add-cart-button.js-main-add-cart-button.js-add-box-prime > span').click()
+        cy.contains('Adicionar à sacola').should('be.visible').click()
     });
 });
