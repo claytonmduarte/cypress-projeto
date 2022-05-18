@@ -2,11 +2,11 @@ describe(`Pesquise de produto e inclusão do carrinho de compras`, () => {
     it(`
     ===== PASSOS:
     1. Acessar a Home do Portal Magazine Luiza;
-    2. Realizar a pesquisa pelo item "Micro-ondas Consul 32L Espelhado";
-    3. Clicar no botão "Lupa" para iniciar a pesquisa pelo item;
-    4. Exibir produtos de acordo com a pesquisa;
-    5. Validar se o produto foi exibido;
-    6. Clicar no item pesquisado.
+    2. No camo de pesquisa informa "hd externo" e clica no botão de pesquisar "Lupa"
+    3. Exibir produtos de acordo com a pesquisa;
+    4. Validar se o produto foi exibido;
+    5. Clicar no item pesquisado;
+    6. Clica no botão para "Adicionar à sacola"
 
     `, () => {
     cy.visit('https://www.magazineluiza.com.br/') 
